@@ -86,5 +86,4 @@ python image_video_organizer.py
 
 ## 版权信息
 
-© 2025 速光网络软件开发  
-抖音号关注：dubaishun12
+© 2025 速光网络软件开发  抖音号关注：dubaishun12
