@@ -1,0 +1,22 @@
+# 图片和视频收纳器 - Python依赖包
+
+# 核心依赖
+# tkinter - GUI框架 (Python标准库，无需安装)
+# os - 操作系统接口 (Python标准库)
+# shutil - 文件操作 (Python标准库)
+# pathlib - 路径处理 (Python标准库)
+# threading - 多线程 (Python标准库)
+# datetime - 日期时间处理 (Python标准库)
+
+# 项目说明：
+# 本项目主要使用Python标准库，无需额外安装第三方包
+# Python版本要求：3.6+
+
+# 如果需要打包为可执行文件，可以使用以下工具：
+# pyinstaller>=5.0
+# auto-py-to-exe>=2.0
+
+# 开发和测试工具（可选）
+# pytest>=7.0  # 单元测试
+# flake8>=5.0  # 代码风格检查
+# black>=22.0  # 代码格式化
