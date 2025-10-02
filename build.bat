@@ -32,6 +32,11 @@ if errorlevel 0 (
     echo =====================================
     echo 正在测试程序...
     start dist\图片收纳器.exe
+    echo.
+    echo 🚀 推荐使用GitHub Releases发布可执行文件：
+    echo 1. 手动方式：运行 release.bat
+    echo 2. 自动方式：运行 auto_release.bat（需要GitHub CLI）
+    echo 3. 网页方式：直接访问 GitHub 仓库的 Releases 页面
 ) else (
     echo 打包失败，请检查错误信息
 )
