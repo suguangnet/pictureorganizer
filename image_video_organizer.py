@@ -17,7 +17,7 @@ class ImageVideoOrganizer:
         self.center_window()
         
         # 支持的文件格式
-        self.image_extensions = {'.psb', '.psd', '.tif', '.jpg', '.jpeg', '.HEIC', '.png', '.bmp', '.webp', '.gif'}
+        self.image_extensions = {'.psb', '.psd', '.tif', '.jpg', '.jpeg', '.heic', '.png', '.bmp', '.webp', '.gif'}
         self.video_extensions = {'.mp4', '.mov', '.wmv', '.3gp', '.avi', '.flv'}
         
         self.input_path = tk.StringVar()
@@ -62,7 +62,7 @@ class ImageVideoOrganizer:
         formats_frame.grid(row=3, column=0, columnspan=3, sticky="ew", pady=10)
         
         # 显示支持的格式（按指定顺序）
-        image_formats = ".psb .psd .tif .jpg .jpeg .HEIC .png .bmp .webp .gif"
+        image_formats = ".psb .psd .tif .jpg .jpeg .heic .png .bmp .webp .gif"
         video_formats = ".mp4 .mov .wmv .3gp .avi .flv"
         
         ttk.Label(formats_frame, text=f"图片格式: {image_formats}").grid(row=0, column=0, sticky=tk.W)
